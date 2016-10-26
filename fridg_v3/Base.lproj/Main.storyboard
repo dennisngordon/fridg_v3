@@ -175,12 +175,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sdP-0R-4zJ">
-                                <frame key="frameInset" minX="103" minY="76" width="169" height="144"/>
+                                <frame key="frameInset" minX="112" minY="72" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDJ-Lv-y8g">
-                                <frame key="frameInset" minX="120" minY="228" width="135" height="30"/>
+                                <frame key="frameInset" minX="118" minY="230" width="139" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Select profile photo">
@@ -191,14 +191,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User first name and last name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epq-f7-e6N">
-                                <frame key="frameInset" minX="43" minY="292" width="288" height="21"/>
+                                <frame key="frameInset" minX="43" minY="307" width="288" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DashBoard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRj-1m-VOQ">
-                                <frame key="frameInset" minX="145" minY="323" width="85" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome back," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRj-1m-VOQ">
+                                <frame key="frameInset" minX="128" minY="278" width="118" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -226,7 +226,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N2X-Kc-mJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="623" y="1632"/>
+            <point key="canvasLocation" x="621.60000000000002" y="1631.3343328335834"/>
         </scene>
         <!--Sign up-->
         <scene sceneID="CtS-wV-bcq">
@@ -420,7 +420,7 @@
             </objects>
             <point key="canvasLocation" x="-465" y="1632"/>
         </scene>
-        <!--About-->
+        <!--My FRIDG-->
         <scene sceneID="xaN-4r-vPr">
             <objects>
                 <viewController storyboardIdentifier="AboutViewController" id="ucM-z0-F0a" customClass="AboutViewController" customModule="fridg_v3" customModuleProvider="target" sceneMemberID="viewController">
@@ -433,7 +433,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="About" id="9eC-DE-dNw">
+                    <navigationItem key="navigationItem" title="My FRIDG" id="9eC-DE-dNw">
                         <barButtonItem key="leftBarButtonItem" image="left_side.png" id="ZXQ-n3-MA9">
                             <connections>
                                 <action selector="leftSideButtonTapped:" destination="ucM-z0-F0a" id="33Z-18-KmL"/>
@@ -450,7 +450,7 @@
             </objects>
             <point key="canvasLocation" x="151" y="2334"/>
         </scene>
-        <!--Right side-->
+        <!--Recipes-->
         <scene sceneID="qoF-vt-aI9">
             <objects>
                 <viewController storyboardIdentifier="RightSideViewController" id="yqu-qE-FfP" customClass="RightSideViewController" customModule="fridg_v3" customModuleProvider="target" sceneMemberID="viewController">
@@ -463,7 +463,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Right side" id="rVh-tT-MZ4"/>
+                    <navigationItem key="navigationItem" title="Recipes" id="rVh-tT-MZ4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OgS-Bc-vNX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

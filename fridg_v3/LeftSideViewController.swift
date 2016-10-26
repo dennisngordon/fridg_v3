@@ -10,7 +10,7 @@ import UIKit
 
 class LeftSideViewController: UIViewController, UITableViewDataSource,UITableViewDelegate {
 
-    var menuItems:[String] = ["Main","About","Sing out"]
+    var menuItems:[String] = ["Dashboard","My FRIDG","Sign out"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

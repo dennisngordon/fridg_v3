@@ -11,6 +11,8 @@ import UIKit
 class MainPageViewController: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     @IBOutlet weak var userFullNameLabel: UILabel!
     @IBOutlet weak var profilePhotoImageView: UIImageView!
+    @IBOutlet weak var fridgTable: UITableView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
