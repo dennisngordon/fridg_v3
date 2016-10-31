@@ -28,6 +28,13 @@
 		946FA5321B3F9B5B00BC48E1 /* connectivity-bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 946FA52E1B3F9B5B00BC48E1 /* connectivity-bar@2x.png */; };
 		946FA5331B3F9B5B00BC48E1 /* left_side.png in Resources */ = {isa = PBXBuildFile; fileRef = 946FA52F1B3F9B5B00BC48E1 /* left_side.png */; };
 		946FA5341B3F9B5B00BC48E1 /* left_side@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 946FA5301B3F9B5B00BC48E1 /* left_side@2x.png */; };
+		954106E61DC13E8800E791C1 /* FridgTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954106E51DC13E8800E791C1 /* FridgTableViewController.swift */; };
+		954106EB1DC17F2E00E791C1 /* FridgItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954106EA1DC17F2E00E791C1 /* FridgItem.swift */; };
+		954106EE1DC1E93800E791C1 /* FridgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954106EC1DC1E93800E791C1 /* FridgTableViewCell.swift */; };
+		954106EF1DC1E93800E791C1 /* FridgTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 954106ED1DC1E93800E791C1 /* FridgTableViewCell.xib */; };
+		954106F71DC1F16A00E791C1 /* defaultFoodImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 954106F51DC1F16A00E791C1 /* defaultFoodImage.jpg */; };
+		954106FA1DC1F1B700E791C1 /* defaultProfileImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 954106F91DC1F1B700E791C1 /* defaultProfileImage.jpg */; };
+		954106FC1DC20CF200E791C1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954106FB1DC20CF200E791C1 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +80,13 @@
 		946FA52E1B3F9B5B00BC48E1 /* connectivity-bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connectivity-bar@2x.png"; sourceTree = "<group>"; };
 		946FA52F1B3F9B5B00BC48E1 /* left_side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_side.png; sourceTree = "<group>"; };
 		946FA5301B3F9B5B00BC48E1 /* left_side@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left_side@2x.png"; sourceTree = "<group>"; };
+		954106E51DC13E8800E791C1 /* FridgTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FridgTableViewController.swift; sourceTree = "<group>"; };
+		954106EA1DC17F2E00E791C1 /* FridgItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FridgItem.swift; sourceTree = "<group>"; };
+		954106EC1DC1E93800E791C1 /* FridgTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FridgTableViewCell.swift; sourceTree = "<group>"; };
+		954106ED1DC1E93800E791C1 /* FridgTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FridgTableViewCell.xib; sourceTree = "<group>"; };
+		954106F51DC1F16A00E791C1 /* defaultFoodImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defaultFoodImage.jpg; sourceTree = "<group>"; };
+		954106F91DC1F1B700E791C1 /* defaultProfileImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defaultProfileImage.jpg; sourceTree = "<group>"; };
+		954106FB1DC20CF200E791C1 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +128,10 @@
 		94070CF31B39F29300708C8E /* fridg_v3 */ = {
 			isa = PBXGroup;
 			children = (
+				954106F21DC1EE7400E791C1 /* Images */,
+				954106E81DC17AF800E791C1 /* Models */,
+				954106E71DC17AED00E791C1 /* Views */,
+				954106E91DC17B0200E791C1 /* Controllers */,
 				946FA5351B3F9B6200BC48E1 /* Icons */,
 				946FA51D1B3F865200BC48E1 /* MMDrawer */,
 				944E418D1B3E307F001031D0 /* MBProgressHUD.h */,
@@ -130,7 +148,11 @@
 				946FA51E1B3F881200BC48E1 /* LeftSideViewController.swift */,
 				946FA5201B3F88F100BC48E1 /* RightSideViewController.swift */,
 				946FA5221B3F91A000BC48E1 /* AboutViewController.swift */,
+				954106E51DC13E8800E791C1 /* FridgTableViewController.swift */,
 				9434BCED1B45FD9B0071EB54 /* ForgotPasswordViewController.swift */,
+				954106EC1DC1E93800E791C1 /* FridgTableViewCell.swift */,
+				954106ED1DC1E93800E791C1 /* FridgTableViewCell.xib */,
+				954106FB1DC20CF200E791C1 /* SwiftyJSON.swift */,
 			);
 			path = fridg_v3;
 			sourceTree = "<group>";
@@ -185,6 +207,37 @@
 				946FA5301B3F9B5B00BC48E1 /* left_side@2x.png */,
 			);
 			name = Icons;
+			sourceTree = "<group>";
+		};
+		954106E71DC17AED00E791C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		954106E81DC17AF800E791C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				954106EA1DC17F2E00E791C1 /* FridgItem.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		954106E91DC17B0200E791C1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		954106F21DC1EE7400E791C1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				954106F91DC1F1B700E791C1 /* defaultProfileImage.jpg */,
+				954106F51DC1F16A00E791C1 /* defaultFoodImage.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,11 +327,14 @@
 			files = (
 				946FA5341B3F9B5B00BC48E1 /* left_side@2x.png in Resources */,
 				946FA5311B3F9B5B00BC48E1 /* connectivity-bar.png in Resources */,
+				954106F71DC1F16A00E791C1 /* defaultFoodImage.jpg in Resources */,
 				946FA5321B3F9B5B00BC48E1 /* connectivity-bar@2x.png in Resources */,
 				94070CFC1B39F29300708C8E /* Main.storyboard in Resources */,
 				94070D011B39F29300708C8E /* LaunchScreen.xib in Resources */,
 				94070CFE1B39F29300708C8E /* Images.xcassets in Resources */,
+				954106EF1DC1E93800E791C1 /* FridgTableViewCell.xib in Resources */,
 				946FA5331B3F9B5B00BC48E1 /* left_side.png in Resources */,
+				954106FA1DC1F1B700E791C1 /* defaultProfileImage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +354,7 @@
 			files = (
 				9461EEA51B3DD1FF00B786B4 /* MainPageViewController.swift in Sources */,
 				946FA5191B3F864500BC48E1 /* MMDrawerBarButtonItem.m in Sources */,
+				954106EE1DC1E93800E791C1 /* FridgTableViewCell.swift in Sources */,
 				946FA51A1B3F864500BC48E1 /* MMDrawerController.m in Sources */,
 				94070D1B1B3A162F00708C8E /* SignUpViewController.swift in Sources */,
 				946FA51B1B3F864500BC48E1 /* MMDrawerVisualState.m in Sources */,
@@ -306,8 +363,11 @@
 				946FA51C1B3F864500BC48E1 /* UIViewController+MMDrawerController.m in Sources */,
 				94070CF91B39F29300708C8E /* ViewController.swift in Sources */,
 				946FA51F1B3F881200BC48E1 /* LeftSideViewController.swift in Sources */,
+				954106E61DC13E8800E791C1 /* FridgTableViewController.swift in Sources */,
 				9434BCEE1B45FD9B0071EB54 /* ForgotPasswordViewController.swift in Sources */,
 				946FA5211B3F88F100BC48E1 /* RightSideViewController.swift in Sources */,
+				954106FC1DC20CF200E791C1 /* SwiftyJSON.swift in Sources */,
+				954106EB1DC17F2E00E791C1 /* FridgItem.swift in Sources */,
 				94070CF71B39F29300708C8E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

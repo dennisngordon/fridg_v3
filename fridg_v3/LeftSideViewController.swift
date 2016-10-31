@@ -2,8 +2,8 @@
 //  LeftSideViewController.swift
 //  fridg_v3
 //
-//  Created by Dennis Gordon on 2015-06-27.
-//  Copyright (c) 2015 Dennis Gordon. All rights reserved.
+//  Created by Dennis Gordon on 2016-09-27.
+//  Copyright (c) 2016 Dennis Gordon. All rights reserved.
 //
 
 import UIKit
@@ -54,12 +54,12 @@ class LeftSideViewController: UIViewController, UITableViewDataSource,UITableVie
             
             break
         case 1:
-            let aboutViewController = self.storyboard?.instantiateViewController(withIdentifier: "AboutViewController") as! AboutViewController
-            let aboutPageNav = UINavigationController(rootViewController: aboutViewController)
+            let fridgTableViewController = self.storyboard?.instantiateViewController(withIdentifier: "FridgTableViewController") as! FridgTableViewController
+            let fridgPageNav = UINavigationController(rootViewController: fridgTableViewController)
             
             let appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
             
-            appDelegate.drawerContainer!.centerViewController = aboutPageNav
+            appDelegate.drawerContainer!.centerViewController = fridgPageNav
             appDelegate.drawerContainer!.toggle(MMDrawerSide.left, animated: true, completion: nil)
             
             break

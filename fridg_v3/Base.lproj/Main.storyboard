@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2nD-Mt-lAX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2nD-Mt-lAX">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -401,7 +401,7 @@
                                         <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7QO-lS-5k0" id="egu-pg-eGS">
-                                            <frame key="frameInset" width="320" height="43.5"/>
+                                            <frame key="frameInset" width="320" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -431,6 +431,13 @@
                     <view key="view" contentMode="scaleToFill" id="Hs0-0z-Tve">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oLz-VG-j2D">
+                                <frame key="frameInset" minX="16" minY="72" width="343" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="My FRIDG" id="9eC-DE-dNw">
@@ -448,7 +455,67 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gwh-Bo-Q8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="151" y="2334"/>
+            <point key="canvasLocation" x="-2383" y="2367"/>
+        </scene>
+        <!--The FRIDG-->
+        <scene sceneID="zaV-8A-dZs">
+            <objects>
+                <tableViewController storyboardIdentifier="FridgTableViewController" id="rf2-FV-us3" customClass="FridgTableViewController" customModule="fridg_v3" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="22" sectionFooterHeight="22" id="Z5c-0L-xCm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="FridgTableViewCell" rowHeight="90" id="Pop-ZM-zzC" customClass="FridgTableViewCell" customModule="fridg_v3" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="86" width="375" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Pop-ZM-zzC" id="842-gp-XQs">
+                                    <frame key="frameInset" width="375" height="89"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="defaultFoodImage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oOX-2O-UG4">
+                                            <frame key="frameInset" width="89" height="89"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ingredient_name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="diU-fj-5Qh">
+                                            <frame key="frameInset" minX="97" minY="8" width="270" height="27"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="qty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwg-bS-K5X">
+                                            <frame key="frameInset" minX="325" minY="60" width="42" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="imageImageView" destination="oOX-2O-UG4" id="cWx-Oz-sYy"/>
+                                    <outlet property="nameLabel" destination="diU-fj-5Qh" id="T7o-66-jEj"/>
+                                    <outlet property="photoImageView" destination="oOX-2O-UG4" id="cPC-tt-udI"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="rf2-FV-us3" id="ZY7-IP-rUM"/>
+                            <outlet property="delegate" destination="rf2-FV-us3" id="XbL-1C-puU"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="The FRIDG" id="NhX-gW-Ha3">
+                        <barButtonItem key="leftBarButtonItem" image="left_side.png" id="eYI-Tl-d26" userLabel="Bar Button Item">
+                            <connections>
+                                <action selector="leftSideButtonTapped:" destination="rf2-FV-us3" id="l0G-o8-XRt"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fkU-Lg-M1z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2008.8" y="2367.1664167916042"/>
         </scene>
         <!--Recipes-->
         <scene sceneID="qoF-vt-aI9">
@@ -467,7 +534,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OgS-Bc-vNX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1889" y="1814"/>
+            <point key="canvasLocation" x="3490" y="1444"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cQQ-Qu-uBT">
@@ -539,7 +606,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W83-nO-I6e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-682" y="2334"/>
+            <point key="canvasLocation" x="-2338" y="2292"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="l6j-T2-TMe">
@@ -559,9 +626,28 @@
             </objects>
             <point key="canvasLocation" x="-767" y="861"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gpq-WL-tjI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bMt-Bd-djn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sjg-PX-mFY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rf2-FV-us3" kind="relationship" relationship="rootViewController" id="i6i-M3-tvl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eaY-Rk-YgT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069.5999999999999" y="2367.1664167916042"/>
+        </scene>
     </scenes>
     <resources>
         <image name="connectivity-bar.png" width="30" height="30"/>
+        <image name="defaultFoodImage.jpg" width="90" height="90"/>
         <image name="left_side.png" width="20" height="20"/>
     </resources>
 </document>

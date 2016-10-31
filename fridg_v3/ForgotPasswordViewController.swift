@@ -2,8 +2,8 @@
 //  ForgotPasswordViewController.swift
 //  fridg_v3
 //
-//  Created by Dennis Gordon on 2015-07-02.
-//  Copyright (c) 2015 Dennis Gordon. All rights reserved.
+//  Created by Dennis Gordon on 2016-10-02.
+//  Copyright (c) 2016 Dennis Gordon. All rights reserved.
 //
 
 import UIKit
