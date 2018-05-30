@@ -30,3 +30,6 @@ Due to this time scarcity issue that afflicts us, we often opt for the most conv
 
 ## Project members & responsibilities
 
+Dennis Gordon, Project Manager:
+Front-End: Sign in view, Sign up view, Account Profile view, Side Menu Navigation Bar
+Back-End: All .php files, Design and implementation of SQL database, Implementation of spoonacular API
