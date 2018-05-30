@@ -30,6 +30,10 @@ Due to this time scarcity issue that afflicts us, we often opt for the most conv
 
 ## Project members & responsibilities
 
-Dennis Gordon, Project Manager:
-Front-End: Sign in view, Sign up view, Account Profile view, Side Menu Navigation Bar
+Dennis Gordon (Project Manager):
+Front-End: Sign in view, Sign up view, Account Profile view, Side Menu Navigation Bar, My Fridg view
 Back-End: All .php files, Design and implementation of SQL database, Implementation of spoonacular API
+
+Shafia Paglar:
+Front-End: Recipe List view, Individual Recipe view, Recipe Search view
+*Also in charge of all deliverables for each sprint and demonstration (Sprint 1, 2 & 3) as well as final project document*
