@@ -21,12 +21,12 @@ Due to this time scarcity issue that afflicts us, we often opt for the most conv
 ## Screenshots
 
 <p align="center">
-  <img width="460" height="300" src="screenshots/signup.png">
+  <src="screenshots/signup.PNG">
+    <src="screenshots/signin.PNG">
+      <src="screenshots/filter.PNG">
+        <src="screenshots/recipes.PNG">
+          <src="screenshots/recipe.PNG">
 </p>
-![alt text](screenshots/signup.png "Sign Up View")
-![alt text](screenshots/filter.png "Filter through recipes")
-![alt text](screenshots/recipes.png "List of returned recipes from search")
-![alt text](screenshots/recipe.png "View of single recipe")
 
 ## Project members & responsibilities
 
