@@ -20,7 +20,9 @@ Due to this time scarcity issue that afflicts us, we often opt for the most conv
 
 ## Screenshots
 
-![alt text](screenshots/signin.png "Sign In View")
+<p align="center">
+  <img width="460" height="300" src="screenshots/signup.png">
+</p>
 ![alt text](screenshots/signup.png "Sign Up View")
 ![alt text](screenshots/filter.png "Filter through recipes")
 ![alt text](screenshots/recipes.png "List of returned recipes from search")
