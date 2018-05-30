@@ -21,8 +21,8 @@ Due to this time scarcity issue that afflicts us, we often opt for the most conv
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/signup.PNG"><br>
   <img src="screenshots/signin.PNG"><br>
+  <img src="screenshots/signup.PNG"><br>
   <img src="screenshots/filter.PNG"><br>
   <img src="screenshots/recipes.PNG"><br>
   <img src="screenshots/recipe.PNG"><br>
