@@ -1,6 +1,6 @@
-# Fridg (iOS)
+# Fridg (iOS) - CSULB Computer Science Senior Project
 
-## Abstract – 
+## Abstract
 
 Our project was designed with an intent to simplify something all of us spend a part of everyday doing, which is, eating meals. Our resolution to streamline this daily act comes from an iOS application we created. This documentation provides details on the application’s functionalities, functional specifications, design, performance, data structure, systems, testing and conclusions. It gives insight into what this project is comprised of in regards to the back-end and front-end as well as informational content pertinent to a user.
 
@@ -16,5 +16,11 @@ This is a new project so no previous work has been done on it. Currently our aim
 Our project is designed to make cooking more efficient. With the application you will be able to search recipes based on the ingredients you have available in your home. You will also have other tools available to assist you such as nutritional information or the ability to add a recipe to your favorites list.
 
 ### 1.4 Purpose/Objectives/justification of Project - 
-Due to this time scarcity issue that afflicts us, we often opt for the most convenient option. More times than not, this is also an unhealthy and more costly option. It takes time to buy groceries, browse through recipes, plan out a meal, etc. Studies show that the price gap between cooking and dining out is growing larger. Our application aims to assist people in making home cooked meals faster and easier  in order to make this daily ritual more efficient. . 
+Due to this time scarcity issue that afflicts us, we often opt for the most convenient option. More times than not, this is also an unhealthy and more costly option. It takes time to buy groceries, browse through recipes, plan out a meal, etc. Studies show that the price gap between cooking and dining out is growing larger. Our application aims to assist people in making home cooked meals faster and easier  in order to make this daily ritual more efficient.
+
+## Screenshots
+
+
+
+## Project members & responsibilities
 
