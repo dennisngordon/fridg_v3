@@ -21,11 +21,11 @@ Due to this time scarcity issue that afflicts us, we often opt for the most conv
 ## Screenshots
 
 <p align="center">
-  <src="screenshots/signup.PNG">
-    <src="screenshots/signin.PNG">
-      <src="screenshots/filter.PNG">
-        <src="screenshots/recipes.PNG">
-          <src="screenshots/recipe.PNG">
+  <img src="screenshots/signup.PNG">
+  <img src="screenshots/signin.PNG">
+  <img src="screenshots/filter.PNG">
+  <img src="screenshots/recipes.PNG">
+  <img src="screenshots/recipe.PNG">
 </p>
 
 ## Project members & responsibilities
